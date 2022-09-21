@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arima:wght@600&family=Courgette&family=Edu+SA+Beginner&family=Gulzar&family=Lobster&family=Open+Sans:wght@300&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #28282B;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+span {
+    color: yellow;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 25px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: yellow;
+    transition: .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    background-color: rgb(196, 196, 36);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+hr {
+    border: 1px solid aqua;
+}
+
+
+.content {
+    position: absolute;
+    top: 60%;
+    margin-left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin-top: 20px 0 20px;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.pic {
+    width: 400px;
+    height: 310px;
+    margin-top: 30%;
+}
+
+.newsletter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+
+.newsletter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    border: 4px solid rgb(50, 188, 188);
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgb(245, 240, 240), 0px 0px 35px;
+}
+
+
+.newsletter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(50, 188, 188);
+    color: white;
+    box-shadow: 0px 0px 4px rgb(245, 240, 240), 0px 0px 5px;
+    right: 4px;
+    top: 3px;
+}
+
+.line {
+    font-size: 45px;
+    text-align: center;
+    padding: 60px 0 0 0;
+
+}
+
+.block-two {
+    width: 1600px;
+    height: 600px;
+    background-color: rgb(153, 138, 138);
+    margin-top: 30px;
+
+}
+
+.block-two img {
+    width: 360px;
+    height: 280px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.info {
+    margin-left: 550px;
+    margin-top: -380px;
+}
+
+.a {
+    margin-left: -400px;
+    font-size: 35px;
+    color: rgb(179, 67, 85);
+    
+}
+
+.block-three {
+    width: 1600px;
+    height: 600px;
+    background-color: #28282B;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 0 200px 0;
+    margin-top: 100px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+
+b {
+    font-size: 20px;
+    color: blue;
+}
+
+.eyes1 {
+    width: 200px;
+}
+
+.eyes2 {
+    width: 250px;
+}
+
+.container-2 h4 p {
+    margin-top: -30px;
+}
+
+.eyes3 {
+    width: 180px;
+    height: 100px;
+}
+
+.click {
+    background-color: rgb(70, 70, 248);
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: transform .4s;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 12px;
+
+}
+
+.click:hover {
+    transform: scale(1.2);
+}
+
+.container2 {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 320px;
+    height: 320px;
+    border: 3px solid rgb(70, 70, 248);
+}
+
+.content-two {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 70px;
+    color: white;
+    font-weight: bold;
+    height: 250px;
+}
+
+.click-2{
+    background-color: rgb(70, 70, 248);
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: transform .4s;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 12px;
+    margin-bottom: 20px;
+}
+
+.click-2:hover {
+    transform: scale(1.2);
+}
+
+
+.icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.icons {
+    width: 200px;
+    margin-left: 580px;
+    margin-top: 40px;
+}
+
+
+.png-one{
+    width: 45px;
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 15px;
+}
+
+p{
+    text-align: center;
+    color:rgb(12, 12, 12);
+    margin-top: 0px;
+    line-height: 31px;
+    
+}
+
+.footer{
+    height: 300px;
+}
+.footer h2{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+
+.icons h4{
+    margin-top: 50px;
+    color: aqua;
+}
